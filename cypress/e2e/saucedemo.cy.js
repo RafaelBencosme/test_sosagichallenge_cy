@@ -144,7 +144,7 @@ describe('saucedemos tests', () => {
 
     const checkout = new Checkout();
     checkout.selectCheckout();
-    checkout.fillPersonalDataForm('','','');
+    checkout.selectContinue();
 
     checkout.invalidFormDataHelper.should('exist');
   });
