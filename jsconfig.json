@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      // "checkJs": true, Enables type checking for JS files
+      "allowJs": true, // Allows JS files to be included
+      "types": ["cypress"]
+    },
+    "include": [
+      "cypress/**/*.js" // Path to your Cypress test files
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
